@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="1200" height="70">
+<defs><linearGradient id="ln" x1="0" x2="1"><stop offset="0" stop-color="#7c3aed" stop-opacity="0"/><stop offset=".5" stop-color="#c4b5fd"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+<filter id="glow" x="-50%" y="-200%" width="200%" height="500%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<style>.p{animation:p 3s ease-in-out infinite}@keyframes p{0%,100%{opacity:.55}50%{opacity:1}}
+.s{animation:s 4s linear infinite}@keyframes s{from{transform:translateX(-620px)}to{transform:translateX(620px)}}</style></defs>
+<rect x="60" y="34" width="1080" height="1.5" fill="url(#ln)" class="p"/>
+<g class="s"><circle cx="600" cy="34.7" r="2.5" fill="#f5f3ff" filter="url(#glow)"/></g>
+<g transform="translate(600 35)" filter="url(#glow)" class="p">
+<path d="M-26 0 L-8 -6 L0 -18 L8 -6 L26 0 L8 6 L0 18 L-8 6 Z" fill="#12061f" stroke="#a78bfa" stroke-width="1.4"/>
+<path d="M-7 4 L-9 -5 L-4 -1 L0 -7 L4 -1 L9 -5 L7 4 Z" fill="#facc15"/>
+</g>
+</svg>

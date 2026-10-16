@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420">
+<defs>
+<linearGradient id="wing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset=".45" stop-color="#4c1d95"/><stop offset="1" stop-color="#05010a"/></linearGradient>
+<radialGradient id="core"><stop offset="0" stop-color="#7c3aed" stop-opacity=".55"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<path id="ring" d="M210 210 m-150 0 a150 150 0 1 1 300 0 a150 150 0 1 1 -300 0"/>
+<style>
+.spin{animation:spin 40s linear infinite;transform-origin:210px 210px}@keyframes spin{to{transform:rotate(360deg)}}
+.spin2{animation:spin 26s linear infinite reverse;transform-origin:210px 210px}
+.wl{animation:wl 4s ease-in-out infinite;transform-origin:186px 222px}@keyframes wl{50%{transform:rotate(7deg)}}
+.wr{animation:wr 4s ease-in-out infinite;transform-origin:234px 222px}@keyframes wr{50%{transform:rotate(-7deg)}}
+.float{animation:float 4s ease-in-out infinite}@keyframes float{50%{transform:translateY(-8px)}}
+.pulse{animation:pulse 4s ease-in-out infinite;transform-origin:210px 210px}@keyframes pulse{50%{transform:scale(1.12);opacity:.7}}
+.gem{animation:gem 2.4s ease-in-out infinite}@keyframes gem{50%{fill:#f0abfc}}
+</style></defs>
+<circle cx="210" cy="210" r="170" fill="url(#core)" class="pulse"/>
+<g class="spin"><circle cx="210" cy="210" r="168" fill="none" stroke="#7c3aed" stroke-opacity=".5" stroke-width="1" stroke-dasharray="2 10"/>
+<text font-family="Georgia, serif" font-size="17" letter-spacing="6" fill="#a78bfa" opacity=".75"><textPath href="#ring">ᚾ ᛟ ᚲ ᛏ ᚢ · ᚱ ᛖ ᛁ ᚷ ᚾ · ᛟ ᚠ · ᚾ ᛁ ᚷ ᚺ ᛏ ·ᚾ ᛟ ᚲ ᛏ ᚢ · ᚱ ᛖ ᛁ ᚷ ᚾ · ᛟ ᚠ · ᚾ ᛁ ᚷ ᚺ ᛏ ·</textPath></text></g>
+<g class="spin2"><circle cx="210" cy="210" r="126" fill="none" stroke="#c4b5fd" stroke-opacity=".35" stroke-width="1.2" stroke-dasharray="40 14 4 14"/></g>
+<g class="float">
+<g class="wl"><g transform="translate(18 150) scale(1.7)" fill="url(#wing)" stroke="#c4b5fd" stroke-opacity=".5" stroke-width=".5" filter="url(#glow)"><path d="M50 52 C38 40 22 30 4 30 C14 36 22 42 28 50 Z"/><path d="M50 58 C36 50 18 46 2 50 C14 54 22 58 30 62 Z"/><path d="M50 64 C38 62 22 64 8 72 C20 72 30 72 36 72 Z"/><path d="M50 70 C40 72 28 78 18 88 C30 84 40 80 46 78 Z"/></g></g>
+<g class="wr"><g transform="translate(402 150) scale(-1.7 1.7)" fill="url(#wing)" stroke="#c4b5fd" stroke-opacity=".5" stroke-width=".5" filter="url(#glow)"><path d="M50 52 C38 40 22 30 4 30 C14 36 22 42 28 50 Z"/><path d="M50 58 C36 50 18 46 2 50 C14 54 22 58 30 62 Z"/><path d="M50 64 C38 62 22 64 8 72 C20 72 30 72 36 72 Z"/><path d="M50 70 C40 72 28 78 18 88 C30 84 40 80 46 78 Z"/></g></g>
+<path d="M150 150 L210 120 L270 150 L270 236 Q270 290 210 318 Q150 290 150 236 Z" fill="#0b0614" stroke="#a78bfa" stroke-width="2.5" filter="url(#glow)"/>
+<path d="M160 156 L210 131 L260 156 L260 234 Q260 280 210 305 Q160 280 160 234 Z" fill="none" stroke="#4c1d95" stroke-width="1.5"/>
+<path d="M176 236 L184 190 L198 208 L210 176 L222 208 L236 190 L244 236 Z" fill="#facc15" stroke="#fde68a" stroke-width="1.5" stroke-linejoin="round" filter="url(#glow)"/>
+<rect x="176" y="236" width="68" height="10" rx="2" fill="#eab308"/>
+<circle cx="210" cy="241" r="4" class="gem" fill="#c084fc"/><circle cx="190" cy="241" r="2.5" fill="#7c3aed"/><circle cx="230" cy="241" r="2.5" fill="#7c3aed"/>
+<text x="210" y="282" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="700" fill="#e9d5ff" letter-spacing="3">N</text>
+</g>
+</svg>
