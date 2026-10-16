@@ -14,12 +14,9 @@
 
 </div>
 
-<table>
-<tr>
-<td width="42%" align="center">
-<img src="assets/crest.svg" width="300" alt="NoctV crest" />
-</td>
-<td width="58%">
+<div align="center">
+<img src="assets/crest.svg" width="280" alt="NoctV crest" />
+</div>
 
 ```js
 const noctv = {
@@ -31,11 +28,7 @@ const noctv = {
 };
 ```
 
-> *🖤 Night is my kingdom, code is my sword.*
-
-</td>
-</tr>
-</table>
+<p align="center"><i>🖤 Night is my kingdom, code is my sword.</i></p>
 
 <div align="center">
 
