@@ -50,7 +50,7 @@ const noctv = {
 
 ### 🏰 [NoctV OS](https://github.com/NoctV/noctv-os-releases)
 
-**A personal productivity OS and a private messenger** — tasks, goals, an encrypted journal, a knowledge base, chats with friends, profiles with dark-prince customization, focus mode and lo-fi radio. One account on Windows, in the browser and on the phone.
+**A personal productivity OS and a private messenger** — tasks, goals, an encrypted journal, a knowledge base, **NoctV Live** — a friends feed with posts, events and chats, a **3D kingdom** you build by getting things done, profiles with dark-prince customization, focus mode and lo-fi radio. One account on Windows, in the browser and on the phone.
 
 <a href="https://github.com/NoctV/noctv-os-releases/releases/latest"><img src="https://img.shields.io/badge/⬇%20Download%20for%20Windows-7c3aed?style=for-the-badge&labelColor=0d0717" /></a>
 <a href="https://noctv-os.vercel.app"><img src="https://img.shields.io/badge/🌐%20Open%20in%20browser-0ea5e9?style=for-the-badge&labelColor=0d0717" /></a>
