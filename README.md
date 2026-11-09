@@ -1,91 +1,43 @@
-<div align="center">
+<img src="assets/header.svg" width="100%" alt="NoctV — in this world, nothing is more important than winning" />
 
-<img src="assets/header.svg" width="100%" alt="Capturing the world" />
+```console
+$ whoami
+NoctV — Yerevan, Armenia. I build things that live at night.
 
-<br/>
+$ cat ./now.txt
+NoctV · a night-sky workspace: tasks, goals, journal, knowledge, money, focus
+Noct  · a voice assistant on Claude that runs my PC and remembers what matters
 
-<img src="https://img.shields.io/badge/📍%20Yerevan-0d0717?style=for-the-badge&labelColor=0d0717" />
-<img src="https://img.shields.io/badge/♛%20Creator%20of-NoctV%20OS-7c3aed?style=for-the-badge&labelColor=0d0717" />
-<img src="https://img.shields.io/badge/⚔%20Mode-Conquest-c026d3?style=for-the-badge&labelColor=0d0717" />
-
-<img src="assets/divider.svg" width="100%" />
-
-<img src="assets/title-about.svg" width="100%" alt="About me" />
-
-</div>
-
-<div align="center">
-<img src="assets/crest.svg" width="280" alt="NoctV crest" />
-</div>
-
-```js
-const noctv = {
-  realm:     "Yerevan, Armenia",
-  forging:   "NoctV OS — a personal OS & private messenger",
-  weapons:   ["JavaScript", "React", "Electron", "Supabase"],
-  rule:      "Build it beautiful. Ship it fast.",
-  motto:     "In this world, nothing is more important than winning.",
-};
+$ cat ./rules.txt
+1. Build it beautiful.  2. Ship it fast.  3. Never stop.
 ```
-
-<p align="center"><i>🖤 Night is my kingdom, code is my sword.</i></p>
-
-<div align="center">
-
-<img src="assets/divider.svg" width="100%" />
-
-<img src="assets/title-arsenal.svg" width="100%" alt="Arsenal" />
-
-<img src="https://skillicons.dev/icons?i=js,react,electron,vite,nodejs,supabase,postgres,html,css,git,github,vercel&theme=dark&perline=12" alt="Tech stack" />
-
-<img src="assets/divider.svg" width="100%" />
-
-<img src="assets/title-realm.svg" width="100%" alt="My realm" />
-
-</div>
 
 <table>
 <tr>
-<td>
+<td width="50%" valign="top">
 
-### 🏰 [NoctV OS](https://github.com/NoctV/noctv-os-releases)
+#### ◎ [NoctV](https://github.com/NoctV/noctv-releases)
+The whole system: tasks, goals, an encrypted journal, a knowledge base, finances, a plan, focus — and Noct inside.
 
-**A personal productivity OS and a private messenger** — tasks, goals, an encrypted journal, a knowledge base, **NoctV Live** — a friends feed with posts, events and chats, a **3D kingdom** you build by getting things done, profiles with dark-prince customization, focus mode and lo-fi radio. One account on Windows, in the browser and on the phone.
-
-<a href="https://github.com/NoctV/noctv-os-releases/releases/latest"><img src="https://img.shields.io/badge/⬇%20Download%20for%20Windows-7c3aed?style=for-the-badge&labelColor=0d0717" /></a>
-<a href="https://noctv-os.vercel.app"><img src="https://img.shields.io/badge/🌐%20Open%20in%20browser-0ea5e9?style=for-the-badge&labelColor=0d0717" /></a>
-
-<img src="assets/noctv-os.png" width="100%" alt="NoctV OS" />
-
-<img src="assets/noctv-os-phones.png" width="100%" alt="NoctV OS on phones" />
+[⬇ Windows](https://github.com/NoctV/noctv-releases/releases/latest) · [🌐 Web & phone](https://noctv-os.vercel.app)
 
 </td>
-</tr>
-<tr>
-<td>
+<td width="50%" valign="top">
 
-### 🎛 [MixLab](https://github.com/NoctV/MixLab)
+#### ◎ [Noct](https://github.com/NoctV/noct-releases)
+The assistant on its own: voice control of Windows, own commands, memory.
 
-A web experiment in HTML & CSS.
+[⬇ Get Noct](https://github.com/NoctV/noct-releases/releases/latest)
 
 </td>
 </tr>
 </table>
 
-<div align="center">
-
-<img src="assets/divider.svg" width="100%" />
-
-<img src="assets/title-conquest.svg" width="100%" alt="Conquest" />
+<p align="center">
+<img src="https://skillicons.dev/icons?i=js,react,electron,nodejs,supabase,postgres,python,powershell,vercel&theme=dark" alt="Stack" />
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/NoctV/NoctV/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NoctV/NoctV/output/snake-dark.svg" />
   <img alt="Contribution snake" src="https://raw.githubusercontent.com/NoctV/NoctV/output/snake-dark.svg" width="100%" />
 </picture>
-
-<br/><br/>
-
-<img src="assets/footer.svg" width="100%" alt="In this world, nothing is more important than winning" />
-
-</div>
