@@ -6,6 +6,7 @@ NoctV — Yerevan, Armenia. I build things that live at night.
 
 $ cat ./now.txt
 NoctV · a night-sky workspace: tasks, goals, journal, knowledge, money, focus
+        2.0 «Dusk» · 29 nights from first commit · 170+ releases
 Noct  · a voice assistant on Claude that runs my PC and remembers what matters
 
 $ cat ./rules.txt
@@ -19,7 +20,7 @@ $ cat ./rules.txt
 #### ◎ [NoctV](https://github.com/NoctV/noctv-releases)
 The whole system: tasks, goals, an encrypted journal, a knowledge base, finances, a plan, focus — and Noct inside.
 
-[⬇ Windows](https://github.com/NoctV/noctv-releases/releases/latest) · [🌐 Web & phone](https://noctv-os.vercel.app)
+[⬇ Windows](https://github.com/NoctV/noctv-releases/releases/latest) · [🌐 Web & phone](https://noctv-os.vercel.app) · [📜 Story](https://github.com/NoctV/noctv-releases/blob/main/HISTORY.md)
 
 </td>
 <td width="50%" valign="top">
